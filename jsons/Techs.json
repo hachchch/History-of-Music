@@ -1,1 +1,175 @@
-
+[
+	{
+		"columnNumber": 0,
+		"era": "Ancient era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Sound of Nature",
+				"row": 6,
+                                "uniques": ["Starting tech"]
+			},
+		]
+        },
+        {
+                "columnNumber": 1,
+		"era": "Ancient era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Stone Percussion",
+				"row": 2,
+				"prerequisites": ["Sound of Nature"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Animal Noise",
+				"row": 5,
+				"prerequisites": ["Sound of Nature"],
+				"quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
+			},
+			{
+				"name": "Singing",
+				"row": 7,
+				"prerequisites": ["Sound of Nature"],
+				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
+			},
+			{
+				"name": "Bone Whistle",
+				"row": 9,
+				"prerequisites": ["Sound of Nature"],
+				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+			}
+		]
+        },
+        {
+                "columnNumber": 2,
+		"era": "Ancient era",
+		"techCost": 55,
+		"buildingCost": 75,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Bone Marimba",
+				"row": 1,
+				"prerequisites": ["Stone Percussion"],
+				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+			},
+			{
+				"name": "Writing",
+				"row": 2,
+				"prerequisites": ["Animal Noise"],
+				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
+			},
+			{
+				"name": "Harmonics",
+				"row": 3,
+				"prerequisites": ["Animal Noise","Singing"],
+				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
+			},
+			{
+				"name": "Sing for Gods",
+				"row": 5,
+				"prerequisites": ["Singing"],
+				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
+			},
+			{
+				"name": "Writing",
+				"row": 7,
+				"prerequisites": ["Singing", "Bone Whistle"],
+				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+			},
+			{
+				"name": "Early Wind Band",
+				"row": 9,
+				"prerequisites": ["Bone Whistle"],
+				"quote": "'How happy are those whose walls already rise!' - Virgil"
+			},
+			{
+				"name": "Early Melody",
+				"row": 10,
+				"prerequisites": ["Bone Whistle"],
+				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+			},
+		]
+	},
+        {
+                "columnNumber": 3,
+		"era": "Classical era",
+		"techCost": 105,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Bells",
+				"cost": 85,
+				"row": 1,
+				"prerequisites": ["Bone Marimba"],
+				"uniques": ["Enables embarkation for land units"],
+				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
+			},
+			{
+				"name": "Hymns",
+				"row": 5,
+				"prerequisites": ["Sing for Gods","Writing"],
+				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
+			},
+			{
+				"name": "Songs",
+				"row": 7,
+				"prerequisites": ["Early Melody","Harmonics","Bone Marimba","Sing for Gods"],
+				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
+			},
+			{
+				"name": "Ancient Musics",
+				"row": 9,
+				"prerequisites": ["Early Wind Band","Early Melody"],
+				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
+			}
+		]
+	},
+        {
+                "columnNumber": 4,
+		"era": "Classical era",
+		"techCost": 175,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Philosophy",
+				"row": 2,
+				"prerequisites": ["Writing","Calendar"],
+				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+			},
+			{
+				"name": "Drama and Poetry",
+				"row": 3,
+				"prerequisites": ["Writing"],
+				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
+			},
+			{
+				"name": "Currency",
+				"row": 7,
+				"prerequisites": ["Mathematics"],
+				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
+			},
+			{
+				"name": "Drama and Poetory",
+				"row": 8,
+				"prerequisites": ["Songs","Ancient Musics"],
+				"uniques": ["Roads connect tiles across rivers"],
+				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
+			},
+			{
+				"name": "Musical Notation",
+				"row": 10,
+				"prerequisites": ["Ancient Musics","Hymns"],
+				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
+			}
+		]
+        }
+]
