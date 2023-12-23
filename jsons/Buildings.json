@@ -1,0 +1,89 @@
+[
+        // Song Maker
+        {
+                "name": "",
+        },
+        {
+                "name": "Rock Band",
+                "requiredBuilding": "",
+                "requiredTech": "Rock",
+                "uniques": ["Provides [3] [Song]"],
+        },
+        {
+                "name": "Pop Band",
+                "requiredBuilding": "Rock Band",
+                "requiredTech": "Popular Music",
+                "uniques": ["Provides [8] [Song]"],
+        },
+        {
+                "name": "Desk Top Music Tools",
+                "requiredBuilding": "PC",
+                "requiredTech": "DTM",
+                "uniques": ["Provides [10] [Song]"],
+        },
+        {
+                "name": "AI Music Generator",
+                "requiredBuilding": "Desk Top Music Tools",
+                "requiredTech": "Future Music",
+                "uniques": ["Provides [20] [Song]"],
+        },
+        {
+                "name": "Music of Human",
+                "requiredBuilding": "AI Music Generator",
+                "requiredTech": "Future Music",
+                "uniques": ["'Does AI-generated music have any value?' Music should not be destroyed by evil commercism. Let's listen to the human voice again... It's sound of Nature and It's the human voice.","Provides [1] [Song]"],
+        },
+        // Song Required Wonders
+        {
+                "name": "Earliest Music",
+                "cost": 100,
+                "science": 5,
+                "uniques": ["How the Music start? Is it suddenly happen? Is it Mutation? Why we need music?"]
+        },
+        {
+                "name": "Hurrian Hymns",
+        },
+        {
+                "name": "Seikilos Epitaph",
+        },
+        {
+                "name": "The Moldau",
+                "isWonder": true,
+                "requiredTech": "Nationalism",
+                "uniques": ["Slavic","Classical","[+1 Culture] from [River] tiles [in this city]","[-10]% unhappiness from the number of cities"],
+        },
+        {
+                "name": "The Sacred War",
+                "isWonder": true,
+                "requiredTech": "Nationalism",
+                "uniques": ["Slavic","Militaristic","[+1 Culture] from [City ruins] tiles [in this city]","[+10]% Strength <for [Military] units> <when [Wounded]> <when at war>"],
+        },
+        {
+                "name": "Panzerlied",
+                "isWonder": true,
+                "requiredTech": "Nationalism",
+                "uniques": ["European","[+10]% Strength <for [Military] units> <when attacking> <when at war>"],
+        },
+        {
+                "name": "Bolero",
+                "isWonder": true,
+                "requiredTech": "Modern Ballet",
+                "culture": 4,
+                "uniques": ["European","[+10]% Strength <for [Dancer] units>"]
+        },
+        // Wonders
+        {
+        },
+        // Base
+        {
+                "name": "",
+        },
+        // General
+        {
+                "name": "PC",
+                "requiredTech": "Computer",
+        },
+        {
+                "name": "",
+        }
+]
