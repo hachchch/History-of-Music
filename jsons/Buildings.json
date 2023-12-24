@@ -1,4 +1,93 @@
 [
+        // Permanent
+        {
+                "name": "Create Sound",
+                "uniques": [""]
+        },
+        {
+                "name": "Create Rhythm",
+                "uniques": [""]
+        },
+        // Rhythm Maker
+        {
+                "name": "Bone Drum",
+                "uniques": ["Provides [1] [Rhythm]"]
+        },
+        {
+                "name": "Percussion",
+                "uniques": ["Provides [1] [Rhythm]"]
+        },
+        {
+                "name": "",
+                "uniques": ["Provides [10] [Rhythm]"]
+        },
+        // Sound Maker
+        {
+                "name": "Chord",
+                "uniques": ["Provides [1] [Sound]"]
+        },
+        {
+                "name": "Vocal",
+                "uniques": ["Provides [1] [Sound]"]
+        },
+        {
+                "name": "Organ",
+                "uniques": ["Provides [5] [Sound]"]
+        },
+        {
+                "name": "Timpani",
+                "uniques": ["Provides [3] [Sound]"]
+        },
+        {
+                "name": "Grand Piano",
+                "uniques": ["Provides [5] [Sound]"]
+        },
+        {
+                "name": "Electric Guitar",
+                "uniques": ["Provides [8] [Sound]"]
+        },
+        {
+                "name": "Sine Wave",
+                "requiredBuilding": "Synthesizer",
+                "uniques": ["Provides [6] [Sound]"]
+        },
+        {
+                "name": "Square Wave",
+                "requiredBuilding": "Sine Wave",
+                "uniques": ["Provides [6] [Sound]"]
+        },
+        {
+                "name": "Saw Wave",
+                "requiredBuilding": "Square Wave",
+                "uniques": ["Provides [6] [Sound]"]
+        },
+        {
+                "name": "Sound Effect",
+                "requiredBuilding": "Saw Wave",
+                "uniques": ["Provides [10] [Sound]"]
+        },
+        {
+                "name": "Voice Changer",
+                "requiredBuilding": "Sound Effect",
+                "requiredTech": "",
+                "uniques": ["Provides [5] [Sound]"]
+        },
+        {
+                "name": "Distortion",
+                "requiredTech": "Hard Rock",
+                "uniques": ["Provides [3] [Sound]"]
+        },
+        {
+                "name": "Crusher",
+                "requiredTech": "Modern Synthesizer",
+                "uniques": ["Provides [3] [Sound]"]
+        },
+        {
+                "name": "DTM Synthesizer",
+                "requiredBuilding": "PC",
+                "requiredTech": "DTM",
+                "uniques": ["Provides [20] [Sound]"]
+        },
         // Song Maker
         {
                 "name": "",
@@ -7,7 +96,7 @@
                 "name": "Rock Band",
                 "requiredBuilding": "",
                 "requiredTech": "Rock",
-                "uniques": ["Provides [3] [Song]"],
+                "uniques": ["Provides [5] [Song]"],
         },
         {
                 "name": "Pop Band",
@@ -27,11 +116,12 @@
                 "requiredTech": "Future Music",
                 "uniques": ["Provides [20] [Song]"],
         },
+        // Final
         {
-                "name": "Music of Human",
+                "name": "Music of Human", // I'm planning that it's need to victory
                 "requiredBuilding": "AI Music Generator",
                 "requiredTech": "Future Music",
-                "uniques": ["'Does AI-generated music have any value?' Music should not be destroyed by evil commercism. Let's listen to the human voice again... It's sound of Nature and It's the human voice.","Provides [1] [Song]"],
+                "uniques": ["'Does AI-generated music have any value?' Music should not be destroyed by evil commercism. Let's listen to the human voice again... It's sound of Nature and It's the human voice.","Provides [1] [Sound]","Provides [1] [Song]"],
         },
         // Song Required Wonders
         {
@@ -84,6 +174,7 @@
                 "requiredTech": "Computer",
         },
         {
-                "name": "",
+                "name": "Synthesizer",
+                "requiredTech": "Modern Synthesizer",
         }
 ]
