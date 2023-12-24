@@ -163,10 +163,9 @@
         },
         // Wonders
         {
-        },
-        // Base
-        {
-                "name": "",
+                "name": "Bayerische Staatsoper",
+                "requiredTech": "Architecture",
+                "uniques": ["[50]% [Culture] [in this city]"]
         },
         // General
         {
