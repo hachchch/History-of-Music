@@ -1,13 +1,4 @@
 [
-        // Permanent
-        {
-                "name": "Create Sound",
-                "uniques": [""]
-        },
-        {
-                "name": "Create Rhythm",
-                "uniques": [""]
-        },
         // Rhythm Maker
         {
                 "name": "Bone Drum",
@@ -176,5 +167,46 @@
         {
                 "name": "Synthesizer",
                 "requiredTech": "Modern Synthesizer",
+        },
+        // Permanent
+        {
+                "name": "Create 1 Sound",
+                "uniques": ["A1 <hidden from users>","Costs [3] [Rhythm]",
+                "Instantly provides [1] [Sound]"]
+        },
+        {
+                "name": "Create 1 Rhythm",
+                "uniques": ["A1 <hidden from users>","Costs [3] [Sound]",
+                "Instantly provides [1] [Rhythm]"]
+        },
+        {
+                "name": "Create 10 Sound",
+                "uniques": ["A1 <hidden from users>","Costs [30] [Rhythm]",
+                "Instantly provides [10] [Sound]"]
+        },
+        {
+                "name": "Create 10 Rhythm",
+                "uniques": ["A1 <hidden from users>","Costs [30] [Sound]",
+                "Instantly provides [10] [Rhythm]"]
+        },
+        {
+                "name": "Create 100 Sound",
+                "uniques": ["A1 <hidden from users>","Costs [300] [Rhythm]",
+                "Instantly provides [100] [Sound]"]
+        },
+        {
+                "name": "Create 100 Rhythm",
+                "uniques": ["A1 <hidden from users>","Costs [300] [Sound]",
+                "Instantly provides [100] [Rhythm]"]
+        },
+        {
+                "name": "Create 1000 Sound",
+                "uniques": ["A1 <hidden from users>","Costs [3000] [Rhythm]",
+                "Instantly provides [1000] [Sound]"]
+        },
+        {
+                "name": "Create 1000 Rhythm",
+                "uniques": ["A1 <hidden from users>","Costs [3000] [Sound]",
+                "Instantly provides [1000] [Rhythm]"]
         }
 ]
