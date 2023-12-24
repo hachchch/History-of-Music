@@ -34,6 +34,15 @@
                 "uniques": ["Provides [5] [Sound]"]
         },
         {
+                "name": "Strings",
+                "requiredTech": "Advanced Strings",
+                "uniques": ["Provides [4] [Sound]"]
+        },
+        {
+                "name": "Acoustic Guitar",
+                "uniques": ["Provides [5] [Sound]"]
+        },
+        {
                 "name": "Electric Guitar",
                 "uniques": ["Provides [8] [Sound]"]
         },
