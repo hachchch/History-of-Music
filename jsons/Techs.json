@@ -499,7 +499,7 @@
 			},
 			{
 				"name": "Advanced Synthesizer",
-				"row": 10,
+				"row": 9,
 			},
 		]
 	},
@@ -512,16 +512,18 @@
 		"techs": [
 			{
 				"name": "Internet Service",
-				"row": 3,
+				"row": 6,
+				"prerequisites": ["Globalism","Sound Track"]
 			},
 			{
 				"name": "Popular Music",
-				"row": 6,
+				"row": 3,
+				"prerequisites": ["Mp3 Player","Electro swing"]
 			},
 			{
 				"name": "Computer Singer",
-				"row": 10,
-				"prerequisites": ["Advanced Synthesizer"]
+				"row": 9,
+				"prerequisites": ["DTM","Advanced Synthesizer"]
 			},
 		]
 	},
