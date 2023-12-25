@@ -196,9 +196,14 @@
 				"prerequisites": ["Drama and Poetry","Philosophy"]
 			},
 			{
-				"name": "Organized Religion",
+				"name": "Aristocracy",
 				"row": 8,
 				"prerequisites": ["Instrument Innovation","Currency"]
+			},
+			{
+				"name": "Organized Religion",
+				"row": 6,
+				"prerequisites": ["Instrument Innovation","Philosophy"]
 			},
 		]
 	},
@@ -231,11 +236,12 @@
 			},
 			{
 				"name": "Keyboard",
-				"row": 6,
+				"row": 8,
+				"prerequisites": ["Aristocracy"]
 			},
 			{
 				"name": "Missa",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["Organized Religion"]
 			},
 		]
@@ -269,7 +275,7 @@
 			},
 			{
 				"name": "Grand Piano",
-				"row": 6,
+				"row": 8,
 				"prerequisites": ["Keyboard","Missa"]
 			},
 			{
@@ -279,7 +285,7 @@
 			},
 			{
 				"name": "Advanced Strings",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["Missa"]
 			},
 		]
@@ -312,12 +318,12 @@
 			},
 			{
 				"name": "Orchestra",
-				"row": 8,
+				"row": 6,
 				"prerequisites": ["Advanced Strings","Church Organ"]
 			},
 			{
 				"name": "Baroque",
-				"row": 6,
+				"row": 8,
 				"prerequisites": ["Grand Piano","Church Organ"]
 			},
 		]
@@ -340,8 +346,20 @@
 				"prerequisites": ["Pentatonic Scale","Drum Kits","Coffee House"]
 			},
 			{
+				"name": "Musical",
+				"row": 7,
+				"prerequisites": ["Baroque","Orchestra"]
+			},
+			{
+				"name": "Ballet Music",
+				"row": 8,
+				"prerequisites": ["Orchestra"]
+			},
+			{
 				"name": "Industrial Revolution",
 				"row": 6,
+				"cost": 1000,
+				// "prerequisites": [""]
 			},
 		]
 	},
@@ -353,9 +371,19 @@
 		"wonderCost": 250,
 		"techs": [
 			{
+				"name": "Militaristic March",
+				"row": 7,
+				"prerequisites": ["Industrial Revolution","Musical"]
+			},
+			{
 				"name": "Electricity",
 				"prerequisites": ["Industrial Revolution"],
 				"row": 5,
+			},
+			{
+				"name": "Dance Music",
+				"row": 9,
+				"prerequisites": ["Ballet Music"]
 			},
 			{
 				"name": "Music Recorder",
@@ -371,6 +399,11 @@
 				"name": "Song of Workers",
 				"row": 6,
 				"prerequisites": ["Industrial Revolution"]
+			},
+			{
+				"name": "Dance Music",
+				"row": 9,
+				"prerequisites": ["Musical","Ballet Music"]
 			},
 		]
 	},
@@ -394,6 +427,7 @@
 			{
 				"name": "Modern Ballet",
 				"row": 8,
+				"prerequisites": ["Dance Music"]
 			},
 			{
 				"name": "Jazz",
@@ -420,6 +454,11 @@
 				"prerequisites": ["Jazz"]
 			},
 			{
+				"name": "Dance Festival",
+				"row": 8,
+				"prerequisites": ["Modern Ballet"]
+			},
+			{
 				"name": "Rock",
 				"row": 6,
 				"prerequisites": ["Jazz","Radio"]
@@ -438,6 +477,11 @@
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
+			{
+				"name": "Disco Party",
+				"row": 8,
+				"prerequisites": ["Dance Festival"]
+			},
 			{
 				"name": "Techno Pop",
 				"row": 4,
