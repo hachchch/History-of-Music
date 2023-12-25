@@ -1,16 +1,4 @@
 [
-        // Important
-        {
-                "name": "Palace",
-                "isNationalWonder": true,
-		"production": 3,
-		"science": 3,
-		"gold": 3,
-		"culture": 1,
-		"cityStrength": 2,
-		"cost": 1,
-		"uniques": ["Indicates the capital city"]
-        },
         // Sound Maker
         {
                 "name": "Chord",
@@ -77,7 +65,7 @@
                 "uniques": ["Provides [3] [Sound]"]
         },
         {
-                "name": "Crusher",
+                "name": "Sound Crusher",
                 "requiredTech": "Modern Synthesizer",
                 "uniques": ["Provides [3] [Sound]"]
         },
@@ -89,24 +77,48 @@
         },
         // Rhythm Maker
         {
-                "name": "Bone Drum",
+                "name": "Stone Drum",
+                "requiredTech": "Stone Percussion",
                 "uniques": ["Provides [1] [Rhythm]"]
         },
         {
                 "name": "Percussion",
+                "requiredTech": "Polyrhythm",
                 "uniques": ["Provides [1] [Rhythm]"]
         },
         {
-                "name": "",
+                "name": "Radio DJ",
+                "requiredTech": "Polyrhythm",
                 "uniques": ["Provides [10] [Rhythm]"]
         },
         // Song Maker
         {
-                "name": "",
+                "name": "Song of Celebration",
+                "cost": 100,
+                "requiredTech": "Sing for Gods",
+                "uniques": ["Provides [1] [Song]"]
+        },
+        {
+                "name": "Church Musician",
+                "requiredBuilding": "Song of Celebration",
+                "requiredTech": "Organized Religion",
+                "uniques": ["Provides [2] [Song]"],
+        },
+        {
+                "name": "Street Performer",
+                "requiredBuilding": "Church Musician",
+                "requiredTech": "Rock",
+                "uniques": ["Provides [3] [Song]"],
+        },
+        {
+                "name": "Musical Band",
+                "requiredBuilding": "Street Performer",
+                "requiredTech": "Rock",
+                "uniques": ["Provides [4] [Song]"],
         },
         {
                 "name": "Rock Band",
-                "requiredBuilding": "",
+                "requiredBuilding": "Song of Celebration",
                 "requiredTech": "Rock",
                 "uniques": ["Provides [5] [Song]"],
         },
@@ -114,26 +126,26 @@
                 "name": "Pop Band",
                 "requiredBuilding": "Rock Band",
                 "requiredTech": "Popular Music",
-                "uniques": ["Provides [8] [Song]"],
+                "uniques": ["Provides [6] [Song]"],
         },
         {
                 "name": "Desk Top Music Tools",
                 "requiredBuilding": "PC",
                 "requiredTech": "DTM",
-                "uniques": ["Provides [10] [Song]"],
+                "uniques": ["Provides [8] [Song]"],
         },
         {
                 "name": "AI Music Generator",
                 "requiredBuilding": "Desk Top Music Tools",
                 "requiredTech": "Future Music",
-                "uniques": ["Provides [20] [Song]"],
+                "uniques": ["Provides [10] [Song]"],
         },
         // Final
         {
                 "name": "Music of Human", // I'm planning that it's need to victory
                 "requiredBuilding": "AI Music Generator",
                 "requiredTech": "Future Music",
-                "uniques": ["'Does AI-generated music have any value?' Music should not be destroyed by evil commercism. Let's listen to the human voice again... It's sound of Nature and It's the human voice.","Provides [1] [Sound]","Provides [1] [Song]"],
+                "uniques": ["'Does AI-generated music have any value?' Music should not be destroyed by evil commercism. Let's listen to the human voice again... It's sound of Nature and It's the human voice.","Provides [1] [Song]"],
         },
         // Song Required Wonders
         {
