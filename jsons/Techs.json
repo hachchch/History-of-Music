@@ -546,7 +546,8 @@
 		"techs": [
 			{
 				"name": "Electro swing",
-				"row": 4,
+				"row": 2,
+				"prerequisites": ["Mp3 Player"]
 			},
 			{
 				"name": "DTM",
