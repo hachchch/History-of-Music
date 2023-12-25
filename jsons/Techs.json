@@ -121,7 +121,7 @@
 			{
 				"name": "Songs",
 				"row": 7,
-				"prerequisites": ["Early Melody","Harmonics","Bone Marimba","Sing for Gods"],
+				"prerequisites": ["Writing"/*"Early Melody","Harmonics","Bone Marimba","Sing for Gods"*/],
 				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
 			},
 			{
@@ -173,7 +173,7 @@
 			{
 				"name": "Musical Notation",
 				"row": 10,
-				"prerequisites": ["Ancient Musics","Hymns"],
+				"prerequisites": ["Ancient Musics"/*,"Hymns"*/],
 				"quote": "."
 			}
 		]
@@ -327,7 +327,7 @@
 		"techs": [
 			{
 				"name": "Radio",
-				"prerequisites": ["Electricity"],
+				"prerequisites": ["Song of Workers","Electricity"],
 				"row": 6,
 			},
 			{
