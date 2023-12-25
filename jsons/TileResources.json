@@ -106,7 +106,7 @@
 	{
 		"name": "Horses",
 		"resourceType": "Strategic",
-		"revealedBy": "Animal Husbandry",
+		/*"revealedBy": "Animal Husbandry",*/
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"], // Hill only if plains or grassland
 		"production": 1,
 		"improvement": "Pasture",
@@ -125,7 +125,7 @@
 	{
 		"name": "Iron",
 		"resourceType": "Strategic",
-		"revealedBy": "Iron Working",
+		/*"revealedBy": "Iron Working",*/
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
 		"production": 1,
 		"improvement": "Mine",
@@ -149,7 +149,7 @@
 	{
 		"name": "Coal",
 		"resourceType": "Strategic",
-		"revealedBy": "Industrialization",
+		/*"revealedBy": "Industrialization",*/
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Jungle","Forest","Marsh"],
 		"production": 1,
 		"improvement": "Mine",
@@ -171,7 +171,7 @@
 	{
 		"name": "Oil",
 		"resourceType": "Strategic",
-		"revealedBy": "Biology",
+		/*"revealedBy": "Biology",*/
 		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle"],
 		"production": 1,
 		"improvedBy": ["Oil well", "Offshore Platform"],
@@ -194,7 +194,7 @@
 	{
 		"name": "Aluminum",
 		"resourceType": "Strategic",
-		"revealedBy": "Electricity",
+		/*"revealedBy": "Electricity",*/
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Jungle"],
 		"production": 1,
 		"improvement": "Mine",
@@ -210,7 +210,7 @@
 	{
 		"name": "Uranium",
 		"resourceType": "Strategic",
-		"revealedBy": "Atomic Theory",
+		/*"revealedBy": "Atomic Theory",*/
 		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Tundra","Snow"],
 		"production": 1,
 		"improvement": "Mine",
