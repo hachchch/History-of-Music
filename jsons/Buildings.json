@@ -1,17 +1,4 @@
 [
-        // Rhythm Maker
-        {
-                "name": "Bone Drum",
-                "uniques": ["Provides [1] [Rhythm]"]
-        },
-        {
-                "name": "Percussion",
-                "uniques": ["Provides [1] [Rhythm]"]
-        },
-        {
-                "name": "",
-                "uniques": ["Provides [10] [Rhythm]"]
-        },
         // Sound Maker
         {
                 "name": "Chord",
@@ -87,6 +74,19 @@
                 "requiredBuilding": "PC",
                 "requiredTech": "DTM",
                 "uniques": ["Provides [20] [Sound]"]
+        },
+        // Rhythm Maker
+        {
+                "name": "Bone Drum",
+                "uniques": ["Provides [1] [Rhythm]"]
+        },
+        {
+                "name": "Percussion",
+                "uniques": ["Provides [1] [Rhythm]"]
+        },
+        {
+                "name": "",
+                "uniques": ["Provides [10] [Rhythm]"]
         },
         // Song Maker
         {
