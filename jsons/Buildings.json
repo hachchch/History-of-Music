@@ -162,7 +162,7 @@
                 "name": "Music of Human", // I'm planning that it's need to victory
                 "requiredBuilding": "AI Music Generator",
                 "requiredTech": "Future Music",
-                "uniques": ["Costs [10000] [Sound]","'Does AI-generated music have any value?' Music should not be destroyed by evil commercism. Let's listen to the human voice again... It's sound of Nature and It's the human voice.","Provides [1] [Song]"],
+                "uniques": ["Costs [10000] [Rhythm]","Costs [10000] [Sound]","'Does AI-generated music have any value?' Music should not be destroyed by evil commercism. Let's listen to the human voice again... It's sound of Nature and It's the human voice.","Provides [1] [Song]"],
         },
         // Song Required Wonders
         {
@@ -170,38 +170,63 @@
                 "isWonder": true,
                 "cost": 100,
                 "science": 5,
-                "uniques": ["How the Music start? Is it suddenly happen? Why we need music?"]
+                "uniques": ["Costs [10] [Song]","How the Music start? Is it suddenly happen? Why we need music?"]
         },
         {
                 "name": "Hurrian Hymns",
                 "isWonder": true,
                 "requiredTech": "Hymns",
                 "culture": 5,
+                "uniques": ["Costs [65] [Song]"]
         },
         {
                 "name": "Seikilos Epitaph",
                 "requiredTech": "Drama and Poetry",
                 "isWonder": true,
                 "culture": 5,
+                "uniques": ["Costs [130] [Song]"]
+        },
+        {
+                "name": "Waltz of the Flowers",
+                "requiredTech": "Ballet Music",
+                "isWonder": true,
+                "culture": 5,
+                "uniques": ["Costs [800] [Song]","Slavic"]
+        },
+        {
+                "name": "Die Walküre",
+                "requiredTech": "Musical",
+                "isWonder": true,
+                "culture": 5,
+                "uniques": ["Costs [800] [Song]","European"]
+        },
+        {
+                "name": "Jupiter",
+                "requiredTech": "Orchestra",
+                "isWonder": true,
+                "culture": 5,
+                "uniques": ["Costs [750] [Song]","European"]
         },
         {
                 "name": "The Moldau",
                 "isWonder": true,
                 "requiredTech": "Nationalism",
-                "uniques": ["Slavic","Classical","[+1 Culture] from [River] tiles [in this city]","[-10]% unhappiness from the number of cities"],
+                "uniques": ["Costs [1000] [Song]","Slavic","Classical","[+1 Culture] from [River] tiles [in this city]","[-10]% unhappiness from the number of cities"],
         },
+        /*
         {
                 "name": "The Sacred War",
                 "isWonder": true,
                 "requiredTech": "Nationalism",
-                "uniques": ["Slavic","Militaristic","[+1 Culture] from [City ruins] tiles [in this city]","[+10]% Strength <for [Military] units> <when [Wounded]> <when at war>"],
+                "uniques": ["Costs [1000] [Song]","Slavic","Militaristic","[+1 Culture] from [City ruins] tiles [in this city]","[+10]% Strength <for [Military] units> <when [Wounded]> <when at war>"],
         },
+        */
         /*
         {
                 "name": "Panzerlied",
                 "isWonder": true,
-                "requiredTech": "Nationalism",
-                "uniques": ["European","[+10]% Strength <for [Military] units> <when attacking> <when at war>"],
+                "requiredTech": "Militaristic March",
+                "uniques": ["Costs [990] [Song]","European","[+10]% Strength <for [Military] units> <when attacking> <when at war>"],
         },
         */
         {
@@ -209,7 +234,7 @@
                 "isWonder": true,
                 "requiredTech": "Modern Ballet",
                 "culture": 4,
-                "uniques": ["European","[+10]% Strength <for [Dancer] units>"]
+                "uniques": ["Costs [1000] [Song]","European","[+10]% Strength <for [Dancer] units>"]
         },
         // Wonders
         {
