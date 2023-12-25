@@ -160,7 +160,7 @@
 			{
 				"name": "Currency",
 				"row": 7,
-				"prerequisites": ["Mathematics"],
+				"prerequisites": ["Songs"],
 				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
 			},
 			{
@@ -188,7 +188,7 @@
 			{
 				"name": "Organized Religion",
 				"row": 8,
-				"prerequisites": ["Instrument Innovation"]
+				"prerequisites": ["Instrument Innovation","Currency"]
 			},
 		]
 	},
