@@ -179,42 +179,42 @@
         // Permanent
         {
                 "name": "Create 1 Sound",
-                "uniques": ["A1 <hidden from users>","Costs [3] [Rhythm]",
-                "Instantly provides [1] [Sound]"]
+                "uniques": ["A1 <hidden from users>","Unbuildable","Costs [3] [Rhythm]",
+                "Instantly provides [1] [Sound]","Remove [Create 1 Sound] [in this city]"]
         },
         {
                 "name": "Create 1 Rhythm",
-                "uniques": ["A1 <hidden from users>","Costs [3] [Sound]",
-                "Instantly provides [1] [Rhythm]"]
+                "uniques": ["A1 <hidden from users>","Unbuildable","Costs [3] [Sound]",
+                "Instantly provides [1] [Rhythm]","Remove [Create 1 Rhythm] [in this city]"]
         },
         {
                 "name": "Create 10 Sound",
-                "uniques": ["A1 <hidden from users>","Costs [30] [Rhythm]",
-                "Instantly provides [10] [Sound]"]
+                "uniques": ["A1 <hidden from users>","Unbuildable","Costs [30] [Rhythm]",
+                "Instantly provides [10] [Sound]","Remove [Create 10 Sound] [in this city]"]
         },
         {
                 "name": "Create 10 Rhythm",
-                "uniques": ["A1 <hidden from users>","Costs [30] [Sound]",
-                "Instantly provides [10] [Rhythm]"]
+                "uniques": ["A1 <hidden from users>","Unbuildable","Costs [30] [Sound]",
+                "Instantly provides [10] [Rhythm]","Remove [Create 10 Rhythm] [in this city]"]
         },
         {
                 "name": "Create 100 Sound",
-                "uniques": ["A1 <hidden from users>","Costs [300] [Rhythm]",
-                "Instantly provides [100] [Sound]"]
+                "uniques": ["A1 <hidden from users>","Unbuildable","Costs [300] [Rhythm]",
+                "Instantly provides [100] [Sound]","Remove [Create 100 Sound] [in this city]"]
         },
         {
                 "name": "Create 100 Rhythm",
-                "uniques": ["A1 <hidden from users>","Costs [300] [Sound]",
-                "Instantly provides [100] [Rhythm]"]
+                "uniques": ["A1 <hidden from users>","Unbuildable","Costs [300] [Sound]",
+                "Instantly provides [100] [Rhythm]","Remove [Create 100 Rhythm] [in this city]"]
         },
         {
                 "name": "Create 1000 Sound",
-                "uniques": ["A1 <hidden from users>","Costs [3000] [Rhythm]",
-                "Instantly provides [1000] [Sound]"]
+                "uniques": ["A1 <hidden from users>","Unbuildable","Costs [3000] [Rhythm]",
+                "Instantly provides [1000] [Sound]","Remove [Create 1000 Sound] [in this city]"]
         },
         {
                 "name": "Create 1000 Rhythm",
-                "uniques": ["A1 <hidden from users>","Costs [3000] [Sound]",
-                "Instantly provides [1000] [Rhythm]"]
+                "uniques": ["A1 <hidden from users>","Unbuildable","Costs [3000] [Sound]",
+                "Instantly provides [1000] [Rhythm]","Remove [Create 1000 Rhythm] [in this city]"]
         }
 ]
