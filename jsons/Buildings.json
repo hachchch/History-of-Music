@@ -1,23 +1,34 @@
 [
         // Sound Maker
         {
+                "name": "Sound of Nature",
+                "isNationalWonder": true,
+                "cost": 40,
+                "uniques": ["Provides [1] [Sound]"]
+        },
+        {
                 "name": "Chord",
+                "requiredTech": "Harmonics",
                 "uniques": ["Provides [1] [Sound]"]
         },
         {
                 "name": "Vocal",
+                "requiredTech": "Sapiens Voices",
                 "uniques": ["Provides [1] [Sound]"]
         },
         {
                 "name": "Organ",
+                "requiredTech": "Church Organ",
                 "uniques": ["Provides [5] [Sound]"]
         },
         {
                 "name": "Timpani",
+                "requiredTech": "Instrument Innovation",
                 "uniques": ["Provides [3] [Sound]"]
         },
         {
                 "name": "Grand Piano",
+                "requiredTech": "Grand Piano",
                 "uniques": ["Provides [5] [Sound]"]
         },
         {
@@ -27,36 +38,42 @@
         },
         {
                 "name": "Acoustic Guitar",
+                "requiredTech": "Acoustics",
                 "uniques": ["Provides [5] [Sound]"]
         },
         {
                 "name": "Electric Guitar",
+                "requiredTech": "Rock",
                 "uniques": ["Provides [8] [Sound]"]
         },
         {
                 "name": "Sine Wave",
+                "requiredTech": "Modern Synthesizer",
                 "requiredBuilding": "Synthesizer",
                 "uniques": ["Provides [6] [Sound]"]
         },
         {
                 "name": "Square Wave",
+                "requiredTech": "Modern Synthesizer",
                 "requiredBuilding": "Sine Wave",
                 "uniques": ["Provides [6] [Sound]"]
         },
         {
                 "name": "Saw Wave",
+                "requiredTech": "Modern Synthesizer",
                 "requiredBuilding": "Square Wave",
                 "uniques": ["Provides [6] [Sound]"]
         },
         {
                 "name": "Sound Effect",
+                "requiredTech": "Background Ambient",
                 "requiredBuilding": "Saw Wave",
                 "uniques": ["Provides [10] [Sound]"]
         },
         {
-                "name": "Voice Changer",
+                "name": "Autotune",
                 "requiredBuilding": "Sound Effect",
-                "requiredTech": "",
+                "requiredTech": "Advanced Synthesizer",
                 "uniques": ["Provides [5] [Sound]"]
         },
         {
@@ -150,15 +167,22 @@
         // Song Required Wonders
         {
                 "name": "Earliest Music",
+                "isWonder": true,
                 "cost": 100,
                 "science": 5,
-                "uniques": ["How the Music start? Is it suddenly happen? Is it Mutation? Why we need music?"]
+                "uniques": ["How the Music start? Is it suddenly happen? Why we need music?"]
         },
         {
                 "name": "Hurrian Hymns",
+                "isWonder": true,
+                "requiredTech": "Hymns",
+                "culture": 5,
         },
         {
                 "name": "Seikilos Epitaph",
+                "requiredTech": "Drama and Poetry",
+                "isWonder": true,
+                "culture": 5,
         },
         {
                 "name": "The Moldau",
@@ -172,12 +196,14 @@
                 "requiredTech": "Nationalism",
                 "uniques": ["Slavic","Militaristic","[+1 Culture] from [City ruins] tiles [in this city]","[+10]% Strength <for [Military] units> <when [Wounded]> <when at war>"],
         },
+        /*
         {
                 "name": "Panzerlied",
                 "isWonder": true,
                 "requiredTech": "Nationalism",
                 "uniques": ["European","[+10]% Strength <for [Military] units> <when attacking> <when at war>"],
         },
+        */
         {
                 "name": "Bolero",
                 "isWonder": true,
