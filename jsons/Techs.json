@@ -105,7 +105,7 @@
 		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "Bells",
+				"name": "Polyrhythm",
 				"cost": 85,
 				"row": 1,
 				"prerequisites": ["Bone Marimba"],
@@ -280,6 +280,9 @@
 			{
 				"name": "Jazz",
 			},
+			{
+				"name": "Electrophones",
+			},
 		]
 	},
 	{
@@ -308,10 +311,12 @@
 		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "Techno Music",
+				"name": "Techno Pop",
+				"prerequisites": ["Modern Synthesizer"]
 			},
 			{
 				"name": "Hard Rock",
+				"prerequisites": ["Rock"]
 			},
 		]
 	},
