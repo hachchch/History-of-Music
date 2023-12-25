@@ -315,6 +315,7 @@
 			{
 				"name": "Coffee House",
 				"row": 5,
+				"prerequisites": ["Philosophy","Acoustics"]
 			},
 			{
 				"name": "Orchestra",
@@ -358,8 +359,7 @@
 			{
 				"name": "Industrial Revolution",
 				"row": 6,
-				"cost": 1000,
-				// "prerequisites": [""]
+				"prerequisites": ["Orchestra","Coffee House"]
 			},
 		]
 	},
@@ -483,7 +483,7 @@
 				"prerequisites": ["Dance Festival"]
 			},
 			{
-				"name": "Techno Pop",
+				"name": "Techno Music",
 				"row": 4,
 				"prerequisites": ["Modern Synthesizer"]
 			},
@@ -502,17 +502,43 @@
 		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "Computer",
-				"row": 3,
-			},
-			{
-				"name": "Background Ambient",
-				"row": 5,
+				"name": "Technological Innovation",
+				"row": 6,
+				"prerequisites": ["Techno Music","Hard Rock","Disco Party"]
 			},
 		]
 	},
 	{
 		"columnNumber": 15,
+		"era": "Information era",
+		"techCost": 175,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Mp3 Player",
+				"row": 3,
+				"prerequisites": ["Technological Innovation"]
+			},
+			{
+				"name": "Background Ambient",
+				"row": 5,
+				"prerequisites": ["Technological Innovation"]
+			},
+			{
+				"name": "Digitalization",
+				"row": 7,
+				"prerequisites": ["Technological Innovation"]
+			},
+			{
+				"name": "Computer",
+				"row": 9,
+				"prerequisites": ["Technological Innovation"]
+			},
+		]
+	},
+	{
+		"columnNumber": 16,
 		"era": "Information era",
 		"techCost": 175,
 		"buildingCost": 100,
@@ -525,6 +551,7 @@
 			{
 				"name": "DTM",
 				"row": 8,
+				"prerequisites": ["Digitalization","Computer"]
 			},
 			{
 				"name": "Sound Track",
@@ -532,37 +559,38 @@
 				"prerequisites": ["Background Ambient"]
 			},
 			{
-				"name": "Mp3 Player",
+				"name": "Social Media",
 				"row": 3,
-				"prerequisites": ["Computer"]
+				"prerequisites": ["Mp3 Player"]
 			},
 			{
 				"name": "Globalism",
 				"row": 6,
-				"prerequisites": ["Computer"]
+				"prerequisites": ["Background Ambient","Digitalization"]
 			},
 			{
 				"name": "Advanced Synthesizer",
 				"row": 9,
+				"prerequisites": ["Digitalization","Computer"]
 			},
 		]
 	},
 	{
-		"columnNumber": 16,
+		"columnNumber": 17,
 		"era": "Information era",
 		"techCost": 175,
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "Internet Service",
+				"name": "Streaming",
 				"row": 6,
 				"prerequisites": ["Globalism","Sound Track"]
 			},
 			{
 				"name": "Popular Music",
 				"row": 3,
-				"prerequisites": ["Mp3 Player","Electro swing"]
+				"prerequisites": ["Social Media","Electro swing"]
 			},
 			{
 				"name": "Computer Singer",
@@ -572,7 +600,7 @@
 		]
 	},
 	{
-		"columnNumber": 17,
+		"columnNumber": 18,
 		"era": "Future era",
 		"techCost": 175,
 		"buildingCost": 100,
@@ -581,7 +609,7 @@
 			{
 				"name": "Future Music",
 				"row": 6,
-				"prerequisites": ["Computer Singer","Popular Music","Internet Service"]
+				"prerequisites": ["Computer Singer","Popular Music","Streaming"]
 			},
 		]
 	}
