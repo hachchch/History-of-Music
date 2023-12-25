@@ -218,6 +218,10 @@
 		"wonderCost": 250,
 		"techs": [
 			{
+				"name": "Acoustics",
+				"row": 1,
+			},
+			{
 				"name": "Grand Piano",
 				"row": 6,
 				"prerequisites": ["Keyboard","Missa"]
@@ -241,6 +245,11 @@
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
+			{
+				"name": "Architecture",
+				"row": 1,
+				"prerequisites": ["Acoustics"]
+			},
 			{
 				"name": "Coffee House",
 				"row": 3,
