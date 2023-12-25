@@ -171,9 +171,9 @@
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			},
 			{
-				"name": "Musical Notation",
-				"row": 10,
-				"prerequisites": ["Ancient Musics"/*,"Hymns"*/],
+				"name": "Bass Tone",
+				"row": 1,
+				"prerequisites": ["Polyrhythm"],
 				"quote": "."
 			}
 		]
@@ -185,6 +185,16 @@
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
+			{
+				"name": "Music Theory",
+				"row": 2,
+				"prerequisites": ["Bass Tone","Drama and Poetry"]
+			},
+			{
+				"name": "Theology",
+				"row": 4,
+				"prerequisites": ["Drama and Poetry","Philosophy"]
+			},
 			{
 				"name": "Organized Religion",
 				"row": 8,
@@ -199,6 +209,26 @@
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
+			{
+				"name": "Geometry",
+				"row": 4,
+				"prerequisites": ["Theology"]
+			},
+			{
+				"name": "Musical Notation",
+				"row": 1,
+				"prerequisites": ["Music Theory"]
+			},
+			{
+				"name": "Pitch",
+				"row": 2,
+				"prerequisites": ["Music Theory"]
+			},
+			{
+				"name": "Metronome",
+				"row": 3,
+				"prerequisites": ["Music Theory"]
+			},
 			{
 				"name": "Keyboard",
 				"row": 6,
@@ -218,8 +248,24 @@
 		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "Acoustics",
+				"name": "Semitones",
 				"row": 1,
+				"prerequisites": ["Musical Notation"]
+			},
+			{
+				"name": "Octave",
+				"row": 2,
+				"prerequisites": ["Pitch"]
+			},
+			{
+				"name": "Rhythm Keeper",
+				"row": 3,
+				"prerequisites": ["Metronome"]
+			},
+			{
+				"name": "Acoustics",
+				"row": 4,
+				"prerequisites": ["Geometry"]
 			},
 			{
 				"name": "Grand Piano",
@@ -247,12 +293,22 @@
 		"techs": [
 			{
 				"name": "Architecture",
-				"row": 1,
+				"row": 4,
 				"prerequisites": ["Acoustics"]
 			},
 			{
-				"name": "Coffee House",
+				"name": "Pentatonic Scale",
+				"row": 2,
+				"prerequisites": ["Semitones","Octave"]
+			},
+			{
+				"name": "Drum Kits",
 				"row": 3,
+				"prerequisites": ["Rhythm Keeper"]
+			},
+			{
+				"name": "Coffee House",
+				"row": 5,
 			},
 			{
 				"name": "Orchestra",
@@ -281,7 +337,7 @@
 			{
 				"name": "American Innovation",
 				"row": 4,
-				"prerequisites": ["Coffee House"]
+				"prerequisites": ["Pentatonic Scale","Drum Kits","Coffee House"]
 			},
 			{
 				"name": "Industrial Revolution",
