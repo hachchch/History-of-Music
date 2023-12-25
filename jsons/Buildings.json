@@ -113,56 +113,56 @@
                 "name": "Song of Celebration",
                 "cost": 100,
                 "requiredTech": "Sing for Gods",
-                "uniques": ["Provides [1] [Song]"]
+                "uniques": ["Costs [20] [Sound]","Provides [1] [Song]"]
         },
         {
                 "name": "Church Musician",
                 "requiredBuilding": "Song of Celebration",
                 "requiredTech": "Organized Religion",
-                "uniques": ["Provides [2] [Song]"],
+                "uniques": ["Costs [50] [Sound]","Provides [2] [Song]"],
         },
         {
                 "name": "Street Performer",
                 "requiredBuilding": "Church Musician",
                 "requiredTech": "Rock",
-                "uniques": ["Provides [3] [Song]"],
+                "uniques": ["Costs [70] [Sound]","Provides [3] [Song]"],
         },
         {
                 "name": "Musical Band",
                 "requiredBuilding": "Street Performer",
                 "requiredTech": "Rock",
-                "uniques": ["Provides [4] [Song]"],
+                "uniques": ["Costs [100] [Sound]","Provides [4] [Song]"],
         },
         {
                 "name": "Rock Band",
                 "requiredBuilding": "Song of Celebration",
                 "requiredTech": "Rock",
-                "uniques": ["Provides [5] [Song]"],
+                "uniques": ["Costs [150] [Sound]","Provides [5] [Song]"],
         },
         {
                 "name": "Pop Band",
                 "requiredBuilding": "Rock Band",
                 "requiredTech": "Popular Music",
-                "uniques": ["Provides [6] [Song]"],
+                "uniques": ["Costs [300] [Sound]","Provides [6] [Song]"],
         },
         {
                 "name": "Desk Top Music Tools",
                 "requiredBuilding": "PC",
                 "requiredTech": "DTM",
-                "uniques": ["Provides [8] [Song]"],
+                "uniques": ["Costs [500] [Sound]","Provides [8] [Song]"],
         },
         {
                 "name": "AI Music Generator",
                 "requiredBuilding": "Desk Top Music Tools",
                 "requiredTech": "Future Music",
-                "uniques": ["Provides [10] [Song]"],
+                "uniques": ["Costs [1000] [Sound]","Provides [10] [Song]"],
         },
         // Final
         {
                 "name": "Music of Human", // I'm planning that it's need to victory
                 "requiredBuilding": "AI Music Generator",
                 "requiredTech": "Future Music",
-                "uniques": ["'Does AI-generated music have any value?' Music should not be destroyed by evil commercism. Let's listen to the human voice again... It's sound of Nature and It's the human voice.","Provides [1] [Song]"],
+                "uniques": ["Costs [10000] [Sound]","'Does AI-generated music have any value?' Music should not be destroyed by evil commercism. Let's listen to the human voice again... It's sound of Nature and It's the human voice.","Provides [1] [Song]"],
         },
         // Song Required Wonders
         {
