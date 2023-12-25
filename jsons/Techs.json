@@ -62,7 +62,7 @@
 			{
 				"name": "Beast Horns",
 				"row": 2,
-				"prerequisites": ["Animal Noise"],
+				"prerequisites": ["Animal Noise","Stone Percussion"],
 				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
 			},
 			{
@@ -127,7 +127,7 @@
 			{
 				"name": "Vibrato",
 				"row": 3,
-				"prerequisites": ["Harmonics"],
+				"prerequisites": ["Harmonics","Beast Horns"],
 				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
 			},
 			{
