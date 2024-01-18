@@ -4,6 +4,10 @@
                 "movementType": "Land"
         },
         {
+                "name": "Priest",
+                "movementType": "Land",
+        },
+        {
                 "name": "Vocalist",
                 "movementType": "Land"
         },
