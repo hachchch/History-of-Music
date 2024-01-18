@@ -67,6 +67,20 @@
 		// "upgradesTo": "ABC",
 		"attackSound": "nonmetalhit",
 	},
+	{
+		"name": "Lyre",
+		"requiredTech": "Songs",
+		"unitType": "Musician",
+		"rangedStrength": 15,
+		"strength": 10,
+		"range": 2,
+		"cost": 25,
+		"movement": 2,
+		"uniques": ["Costs [10] [Sound]"],
+		// "obsoleteTech": "ABC",
+		// "upgradesTo": "ABC",
+		"attackSound": "nonmetalhit",
+	},
 	// from Medieval
 	{
 		"name": "Choirman",
