@@ -23,8 +23,8 @@
         },
         {
                 "name": "Timpani",
-                "requiredTech": "Instrument Innovation",
-                "uniques": ["Provides [3] [Sound]"]
+                "requiredTech": "Orchestra",
+                "uniques": ["Provides [6] [Sound]"]
         },
         {
                 "name": "Grand Piano",
