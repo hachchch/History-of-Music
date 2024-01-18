@@ -16,6 +16,42 @@
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
         },
+	// General
+	{
+		"name": "Tribal Priest",
+		"unitType": "Priest",
+		"strength": 5,
+		"cost": 20,
+		"movement": 2,
+		// "obsoleteTech": "ABC",
+		// "upgradesTo": "ABC",
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Vocalist",
+		"unitType": "Vocalist",
+		"strength": 10,
+		"cost": 25,
+		"movement": 2,
+		"uniques": ["Costs [5] [Sound]"],
+		// "obsoleteTech": "ABC",
+		// "upgradesTo": "ABC",
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Stone Rumblingman",
+		"unitType": "Vocalist",
+		"strength": 10,
+		"cost": 25,
+		"movement": 2,
+		"uniques": ["Costs [5] [Rhythm]"],
+		// "obsoleteTech": "ABC",
+		// "upgradesTo": "ABC",
+		"attackSound": "nonmetalhit",
+	},
+	{
+		
+	},
 	// Great Persons
 	{
 		"name": "Great Artist",
