@@ -242,6 +242,12 @@
                 "requiredTech": "Architecture",
                 "uniques": ["[50]% [Culture] [in this city]"]
         },
+        {
+                "name": "Fusion",
+                "requiredTech": "Technological Innovation",
+                "quote": "Jazz fusion is a popular music genre that developed in the late 1960s when musicians combined jazz harmony and improvisation with rock music, funk, and rhythm and blues. Electric guitars, amplifiers, and keyboards that were popular in rock and roll started to be used by jazz musicians, particularly those who had grown up listening to rock and roll.",
+                "unqiues": ["[+50]% [Gold] [in this city]"]
+        },
         // General
         {
                 "name": "PC",
