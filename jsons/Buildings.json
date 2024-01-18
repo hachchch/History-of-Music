@@ -105,7 +105,7 @@
         },
         {
                 "name": "Radio DJ",
-                "requiredTech": "Polyrhythm",
+                "requiredTech": "Radio",
                 "uniques": ["Provides [10] [Rhythm]"]
         },
         // Song Maker
@@ -124,13 +124,13 @@
         {
                 "name": "Street Performer",
                 "requiredBuilding": "Church Musician",
-                "requiredTech": "Rock",
+                "requiredTech": "Baroque",
                 "uniques": ["Costs [70] [Sound]","Provides [3] [Song]"],
         },
         {
                 "name": "Musical Band",
                 "requiredBuilding": "Street Performer",
-                "requiredTech": "Rock",
+                "requiredTech": "Musical",
                 "uniques": ["Costs [100] [Sound]","Provides [4] [Song]"],
         },
         {
@@ -250,11 +250,22 @@
         },
         // General
         {
+                "name": "Karaoke House",
+                "requiredTech": "Mp3 Player",
+                "maintenance": 2,
+                "happiness": 3,
+                "uniques": ["Consumes [1] [Song]"]
+        },
+        {
                 "name": "PC",
                 "requiredTech": "Computer",
+                "maintenance": 2,
+                "science": 2,
+                "production": 1,
         },
         {
                 "name": "Synthesizer",
+                "science": 2,
                 "requiredTech": "Modern Synthesizer",
         },
         // Permanent
