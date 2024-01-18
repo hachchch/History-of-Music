@@ -250,6 +250,23 @@
         },
         // General
         {
+                "name": "Music School",
+                "uniques": ["[+1 Science] per [2] population [in this city]"]
+                "requiredTech": "Music Theory",
+        },
+        {
+                "name": "Music College",
+                "requiredBuilding": "Music School",
+                "science": 3,
+                "uniques": ["[+33]% [Science] [in this city]"],
+                "requiredTech": "Pentatonic Scale",
+        },
+        {
+                "name": "Piano Lesson",
+                "requiredTech": "Baroque",
+                "uniques": ["New [Musician] units start with [15] Experience [in this city]"]
+        },
+        {
                 "name": "Karaoke House",
                 "requiredTech": "Mp3 Player",
                 "maintenance": 2,
